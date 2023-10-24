@@ -1,0 +1,46 @@
+PC to stm   5 bytes
+[0](0):
+    [7] enable flag (flag)
+    [6]
+    [5] manual flag (flag)
+    [4]
+    [3]
+    [2]
+    [1]
+    [0]
+[1](3):
+    [7] rotate stop then ball in (flag) <- add
+    [6]
+    [5]
+    [4]
+    [3]
+    [2]
+    [1] launch L ball (flag)
+    [0] launch R ball (flag)
+[2](5):
+    [7] position control target <- add
+    [6] position control target <- add
+    [5] position control target <- add
+    [4] position control target <- add
+    [3] position control target <- add
+    [2]
+    [1] L motor move (to PIC)
+    [0] R motor move (to PIC)
+[3](6):
+    [7] position control (flag) <- add
+    [6] alarm reset (to PIC)
+    [5]
+    [4]
+    [3] rotate direction (to PIC)
+    [2] rotate direction (to PIC)
+    [1] rotate speed (to PIC)
+    [0] rotate speed (to PIC)
+[4](7):
+    [7] rotate speed (to PIC)
+    [6] rotate speed (to PIC)
+    [5] rotate speed (to PIC)
+    [4] rotate speed (to PIC)
+    [3] rotate speed (to PIC)
+    [2] rotate speed (to PIC)
+    [1] rotate speed (to PIC)
+    [0] rotate speed (to PIC)

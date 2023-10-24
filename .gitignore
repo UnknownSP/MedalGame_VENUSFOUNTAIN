@@ -1,0 +1,14 @@
+bin
+obj
+*.c~
+*.h~
+.DS_Store
+*.mp4
+*.mp3
+*.png
+*.jpg
+*.zip
+*.meta
+*.wav
+Unity/Assets/Music_1.zip
+.git/objects/25/4f4feaa760426cd927ba87884765e57ace89d0
